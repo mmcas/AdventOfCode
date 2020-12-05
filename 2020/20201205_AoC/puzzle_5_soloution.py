@@ -39,7 +39,7 @@ def get_possible_seats():
     return possible_seats
 
 def get_missing_seats(full_list, boarded_list):
-    return set(full_list) - set(seats)
+    return set(full_list) - set(boarded_list)
 
 def get_your_seat(missing_seats):
     for seat in missing_seats:
