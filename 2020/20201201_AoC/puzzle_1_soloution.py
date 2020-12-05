@@ -21,6 +21,7 @@ def find_three_nums(num_list):
                 else:
                     next
 
-
+#soloution 1a
 print(find_two_nums(numbers_list))
+#soloution 1b
 print(find_three_nums(numbers_list))
